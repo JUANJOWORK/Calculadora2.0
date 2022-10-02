@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>CALCULADORA</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <form action="">
+            <p>SUMAR NUMEROS</p>
+            <input type="text" id="n1" required placeholder="numero">
+            <p>➕ ➖ ❎ ➗</p>
+            <input type="text" id="n2" required placeholder="numero">
+            <p class="rotate">=</p>
+            <input type="text" id="resultado" readonly placeholder="resultado">
+            <input type="button" onclick="suma()" class="btn" value="SUMA ➕">
+            <input type="button" onclick="resta()" class="btn" value="RESTA ➖">
+            <input type="button" onclick="multi()" class="btn" value="MULTIPLICACIÓN ❎">
+            <input type="button" onclick="divi()" class="btn" value="DIVISIÓN ➗">
+        </form>
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+
+</html>
